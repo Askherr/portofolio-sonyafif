@@ -1,37 +1,49 @@
 body{
-    background-image: url('/asset/bg/Cloudy2.svg');
+    /* background-image: url(/asset/bg/Shiny.svg); */
     background-repeat: no-repeat;
-    /* background-color: azure; */
-    /* overflow: auto; */
     background-size: cover;
     margin: 0 !important;
     text-align: justify;
-
-    /* line-height: 1cm; */
     font-family: 'Outfit', sans-serif;
-
 }
 
 .navbar{
-    background-color: rgba(4, 35, 54, 0.401);
-
+    background-color: rgba(255, 255, 255, 0.723);
     font-size: 500;
     font-family: 'Outfit', sans-serif;
-    
 
 }
+#aboutus{
+    height: 100vh;
+    background-image:url(/asset/bg/Shiny.svg);
+    background-size: cover;
+    /* background-position: center; */
+    background-clip: border-box;
+}
+#visi{
+    height: 100vh;
+    background-image:url(/asset/bg/Cloudy.svg);
+    background-size: cover;
+    /* background-position: center; */
+    background-clip: border-box;
+}
 #profil{
+    
     display: flex;
-    margin-top: 15%;
+    height: 70vh;
+    margin-top: 0%;
     padding: 2rem 1rem;
     color: white;
-    background-color: rgba(4, 35, 54, 0.401);
     border-radius: 40px;
+    background-image: url(/asset/bg/bg.jpg);
+    background-size: cover;
+    background-position: center;
+    background-clip: border-box;
 }
 #profile{
     margin-right: 10%;
     margin-left: 0px;
-    margin-top: 3%;
+    margin-top: 10%;
 }
 .flex-container{
     display: flex;
@@ -42,7 +54,8 @@ h5{
 }
 #perkenalan{
     margin: 10%;
-    text-align: start;
+    text-align: center;
+    
 }
 #kontak, #btn-contact{
     margin-top: 10%;
@@ -104,10 +117,10 @@ section{
 @media screen and (min-width: 800px) {
     #profil{
         display: flex;
-        margin-top: 4.5%;
+        margin-top: 7%;
         padding: 2rem 1rem;
         color: white;
-        background-color: rgba(4, 35, 54, 0.401);
+        
         border-radius: 40px;
     }
   }
