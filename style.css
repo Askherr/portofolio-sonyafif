@@ -1,49 +1,65 @@
-body{
-    /* background-image: url(/asset/bg/Shiny.svg); */
-    background-repeat: no-repeat;
-    background-size: cover;
+body,html{
     margin: 0 !important;
     text-align: justify;
     font-family: 'Outfit', sans-serif;
 }
 
 .navbar{
-    background-color: rgba(255, 255, 255, 0.723);
+    background-color: transparent;
     font-size: 500;
     font-family: 'Outfit', sans-serif;
 
 }
-#aboutus{
+#about{
     height: 100vh;
-    background-image:url(/asset/bg/Shiny.svg);
+    /* background-image:url(/asset/bg/Shiny.svg); */
+    background-color: #4B6587;
     background-size: cover;
-    /* background-position: center; */
     background-clip: border-box;
 }
 #visi{
     height: 100vh;
-    background-image:url(/asset/bg/Cloudy.svg);
-    background-size: cover;
-    /* background-position: center; */
-    background-clip: border-box;
-}
-#profil{
-    
-    display: flex;
-    height: 70vh;
-    margin-top: 0%;
-    padding: 2rem 1rem;
-    color: white;
-    border-radius: 40px;
-    background-image: url(/asset/bg/bg.jpg);
+    background-image:url(/asset/bg/nathan-dumlao-Y3AqmbmtLQI-unsplash.jpg);
+    /* background-color: #1C3879; */
+
     background-size: cover;
     background-position: center;
-    background-clip: border-box;
+    /* background-clip: content-box; */
+    background-repeat: no-repeat;
+}
+#news{
+    height: 100vh;
+    background-color:whitesmoke;
+    
+}
+#kontak{
+    background-color: #112031;
+    height: 40vh;
+}
+#profil{
+    display: flex;
+    height: 85vh;
+    margin-top: 15%;
+    padding: 2rem 1rem;
+    font-size: small;
+    color: whitesmoke;
+    border-radius: 40px;
+    /* box-sizing: border-box; */
+    /* background-color: black; */
+    /* background-image: url(/asset/bg/undraw_coffee_with_friends.svg); */
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position:right;
+    
+    /* background-clip: border-box; */
 }
 #profile{
-    margin-right: 10%;
-    margin-left: 0px;
-    margin-top: 10%;
+    background-image: url(/asset/bg/undraw_coffee_with_friends.svg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 40px;
+    
+    /* margin-bottom: 10%; */
 }
 .flex-container{
     display: flex;
@@ -53,15 +69,8 @@ h5{
     margin-top: 20px;
 }
 #perkenalan{
-    margin: 10%;
-    text-align: center;
-    
-}
-#kontak, #btn-contact{
-    margin-top: 10%;
-    height: 3rem;
-    width: 100%;
-    border-radius: 25px;
+    margin-bottom: -50%;
+    text-align: center; 
 }
 .motivasi{
     margin: 5%;
@@ -70,14 +79,14 @@ h5{
 #motivasi{
     /* color: white; */
     /* background-color: white; */
-    background-color: rgba(4, 35, 54, 0.401);
+    background-color:transparent;
     color: white;
     border-radius: 25px;
 }
 #skillcard{
     margin-top: 2.5%;
-    background-color: rgba(4, 35, 54, 0.401);
-    color: white;
+    /* background-color: rgba(4, 35, 54, 0.401); */
+    color: black;
     padding: 2rem 1rem;
     border-radius: 25px;
 }
@@ -89,7 +98,7 @@ h5{
     text-align: center;
     margin-top: 5%;
     border-radius: 25px;
-    background-color: rgba(4, 35, 54, 0.401);
+    /* background-color: rgba(4, 35, 54, 0.401); */
     color: white;
 }
 section{
@@ -101,26 +110,41 @@ section{
     border-radius: 25px;
 }
 #porto{
+    /* background-color: #EAE3D2; */
     border-radius: 25px;
     margin-top: 2%;
     padding: 2rem 1rem;
 }
+
 #contact{
+    height: 40hv;
     margin-top: -5%;
     border-radius: 25px;
     padding: 2rem 1rem;
-    /* color: white; */
-    background-color: white;
-    /* color: white; */
+    color: white;
+    /* background-color: black; */
 }
 
 @media screen and (min-width: 800px) {
     #profil{
+        height: 75vh;
         display: flex;
         margin-top: 7%;
         padding: 2rem 1rem;
-        color: white;
-        
+        color: whitesmoke;
+        font-size:large;
+        box-sizing: border-box;
         border-radius: 40px;
+    }
+    #perkenalan{
+        margin: 5%;
+        text-align: center; 
+    }
+    #profile{
+        background-image: url(/asset/bg/undraw_coffee_with_friends.svg);
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        margin-bottom: 5%;
     }
   }
